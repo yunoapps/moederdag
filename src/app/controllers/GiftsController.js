@@ -8,6 +8,10 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 		$scope.gifts = data;
 	})
 
+	if(!$scope.filter){
+		$location.path("/price");
+	}
+
 
 	$scope.giftFilter = function(gift){
 		$log.debug("Filter", gift);
@@ -17,10 +21,19 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 		if($scope.filter){
 			return (
 				gift.beleven == $scope.filter.beleven &&
+				(
+					gift.luxe == $scope.filter.luxe ||
+					gift.praktisch == $scope.filter.praktisch ||
+					gift.uniek == $scope.filter.uniek
+				) && (
+					gift.sporten == $scope.filter.sporten ||
+					gift.eten == $scope.filter.eten 
+				) && (
+					gift.binnen == $scope.filter.binnen ||
+					gift.buiten == $scope.filter.buiten 
+				) &&
 				gift.price < $scope.price
 			);
-		}else{
-			return true;
 		}
 	}
 

@@ -27,12 +27,18 @@
         ],
         "filter": {
             "Luxe": {
-                "luxe": 1
+                "luxe": 1,
+                "praktisch": 0,
+                "uniek": 0
             },
             "Praktisch": {
-                "praktisch": 1
+                "luxe": 0,
+                "praktisch": 1,
+                "uniek": 0
             },
             "Uniek": {
+                "luxe": 0,
+                "praktisch": 0,
                 "uniek": 1
             }
         }
@@ -46,9 +52,11 @@
         ],
         "filter": {
             "Sporten": {
-                "sporten": 1
+                "sporten": 1,
+                "eten": 0
             },
             "Lekker eten": {
+                "sporten": 0,
                 "eten": 1
             },
             "Beiden": {
@@ -66,6 +74,11 @@
         ],
         "filter": {
             "Binnen": {
+                "binnen": 1,
+                "buiten": 0
+            },
+            "Buiten": {
+                "binnen": 0,
                 "buiten": 1
             },
             "Beiden": {

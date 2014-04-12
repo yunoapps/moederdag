@@ -1,6 +1,6 @@
 angular.module('yuno').service("yunoService", function(){
 	
-	this.price = 0;
+	this.price = 40;
 	this.filter = null;
 
 });
