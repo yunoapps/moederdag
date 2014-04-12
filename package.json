@@ -1,0 +1,8 @@
+{
+  "name": "juno",
+  "description": "Yuno app",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": "2.x"
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="yuno">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YuNo</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="lib/slider/css/slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">YuNo</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#/start">Start</a></li>
+            <li><a href="#/price">Prijs</a></li>
+            <li><a href="#contact">Questions</a></li>
+            <li><a href="#contact">Cadeau</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+        <div ng-view>
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="lib/slider/js/bootstrap-slider.js"></script>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+
+    <script src="app/module.js"></script>
+    <script src="app/controllers/StartController.js"></script>
+    <script src="app/controllers/PriceController.js"></script>
+    <script src="app/controllers/QuestionsController.js"></script>
+    <script src="app/controllers/GiftsController.js"></script>
+
+    <script src="app/services/YunoService.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Mijn moeder zou het cadeau graag samen willen beleven",
+        "answers": [
+            "Ja",
+            "Nee",
+            "Eventueel"
+        ],
+        "filter": {
+            "Ja": {
+                "beleven": 1
+            },
+            "Nee": {
+                "beleven": 0
+            },
+            "Eventueel": {
+                "beleven": 1
+            }
+        }
+    },
+    {
+        "question": "Een een goed cadeau voor mijn moeder is",
+        "answers": [
+            "Luxe",
+            "Praktisch",
+            "Uniek"
+        ],
+        "filter": {
+            "Luxe": {
+                "luxe": 1
+            },
+            "Praktisch": {
+                "praktisch": 1
+            },
+            "Uniek": {
+                "uniek": 1
+            }
+        }
+    },
+    {
+        "question": "Mijn moeder houdt van",
+        "answers": [
+            "Sporten",
+            "Lekker eten",
+            "Beiden"
+        ],
+        "filter": {
+            "Sporten": {
+                "sporten": 1
+            },
+            "Lekker eten": {
+                "eten": 1
+            },
+            "Beiden": {
+                "sporten": 1,
+                "eten": 1
+            }
+        }
+    },
+    {
+        "question": "Mijn moeder is liever",
+        "answers": [
+            "Binnen",
+            "Buiten",
+            "Beiden"
+        ],
+        "filter": {
+            "Binnen": {
+                "buiten": 1
+            },
+            "Beiden": {
+                "binnen": 1,
+                "buiten": 1
+            }
+        }
+    }
+]
