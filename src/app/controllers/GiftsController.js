@@ -16,7 +16,7 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 	$scope.giftFilter = function(gift){
 		$log.debug("Filter", gift);
 
-		gift.image = "http://s.s-bol.com/imgbase0/imagebase/large/FC/4/4/0/6/" + gift.refid + ".jpg";
+		gift.image = "images/" + gift.refid + ".jpg";
 
 		if($scope.filter){
 			return (
