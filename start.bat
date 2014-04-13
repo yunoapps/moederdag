@@ -1,0 +1,1 @@
+START CMD /k "%PROGRAMFILES%\nodejs\node.exe" server.js
