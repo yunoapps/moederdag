@@ -46,22 +46,25 @@
     {
         "question": "Mijn moeder houdt van",
         "answers": [
-            "Sporten",
+            "Bewegen",
             "Lekker eten",
             "Beiden"
         ],
         "filter": {
-            "Sporten": {
-                "sporten": 1,
-                "eten": 0
+            "Bewegen": {
+                "bewegen": 1,
+                "eten": 0,
+				"rust": 0
             },
             "Lekker eten": {
                 "sporten": 0,
-                "eten": 1
+                "eten": 1,
+				"rust": 0
             },
-            "Beiden": {
-                "sporten": 1,
-                "eten": 1
+            "Rust": {
+                "sporten": 0,
+                "eten": 0, 
+				"rust": 1
             }
         }
     },
