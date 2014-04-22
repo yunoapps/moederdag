@@ -1,6 +1,6 @@
 .header {
 	background: #009BBC;
-	height: 100px;
+	height: 75px;
 }
 
 .header .logo{
@@ -8,35 +8,35 @@
 }
 
 .content {
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 .price {
-	height: 100px;
+	height: 75px;
 	background: #141918;
 }
 
 .price .title{
-	margin: 33px 0;
+	margin: 17px 0;
 	text-align: center;
 
 }
 
 .slider {
 	height: 300px;
-	margin: 100px auto;
+	margin: 50px auto;
 	border: none;
 
 }
 
 .slider .label {
 	background: url('../images/slider_label.png');
-	height: 185px;
-	width: 224px;
+	height: 100px;
+	width: 125px;
 	display: block;
 	position: absolute;
 	left:25px;
-	top: -90px;
+	top: -50px;
 	
 }
 
@@ -45,8 +45,8 @@
 	color: #000;
 	font-size: 48px;
 	position: absolute;
-	left:100px;
-	top: 70px;	
+	left:50px;
+	top: 50px;	
 
 }
 
