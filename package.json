@@ -3,6 +3,10 @@
   "description": "Yuno app",
   "version": "0.0.1",
   "dependencies": {
-    "connect": "2.x"
+    "connect": "2.x",
+    "phonegap": "*",
+
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "0.4.0"
   }
 }

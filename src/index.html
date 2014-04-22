@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=0.75, maximum-scale=0.75, minimum-scale=0.75, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+
     <title>YuNo</title>
 
     <!-- Bootstrap -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="lib/slider/css/slider.css" rel="stylesheet">
+    <link href="lib/jquery-ui/css/ui-lightness/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,22 +25,30 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <div class="navbar">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">YuNo</a>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="container header">
+        <div class="row row-header  ">
+          <div class="col-xs-12 logo">
+            <img src="images/logo_yuno_moederdag.png" />
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container content">
+        
 
         <div ng-view>
       </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="lib/jquery/js/jquery.js"></script>
+    <script src="lib/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+
+    <script src="lib/jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <script src="lib/slider/js/bootstrap-slider.js"></script>
 
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular/angular-route.js"></script>
