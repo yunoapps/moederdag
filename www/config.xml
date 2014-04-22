@@ -6,10 +6,10 @@
         id        = "nl.yuno"
         version   = "1.0.0">
 
-    <name>HelloWorld</name>
+    <name>Yuno</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Yuno Moederdag
     </description>
 
     <author href="http://yunoapps.nl" email="yuno.apps@gmail.com">
