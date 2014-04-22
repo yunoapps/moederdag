@@ -1,0 +1,5 @@
+<h1>Question?</h1>
+<p>{{questions[step].question}}</p>
+<div>
+<button class="btn btn-default" ng-repeat="answer in questions[step].answers" ng-click="next(answer)">{{answer}}</button>
+</div>

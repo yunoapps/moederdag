@@ -1,0 +1,93 @@
+[
+    {
+        "question": "Mijn moeder zou het cadeau graag samen willen beleven",
+        "answers": [
+            "Ja",
+            "Nee",
+            "Eventueel"
+        ],
+        "filter": {
+            "Ja": {
+                "beleven": 1
+            },
+            "Nee": {
+                "beleven": 0
+            },
+            "Eventueel": {
+                "beleven": 1
+            }
+        }
+    },
+    {
+        "question": "Een goed cadeau voor mijn moeder is",
+        "answers": [
+            "Luxe",
+            "Praktisch",
+            "Uniek"
+        ],
+        "filter": {
+            "Luxe": {
+                "luxe": 1,
+                "praktisch": 0,
+                "uniek": 0
+            },
+            "Praktisch": {
+                "luxe": 0,
+                "praktisch": 1,
+                "uniek": 0
+            },
+            "Uniek": {
+                "luxe": 0,
+                "praktisch": 0,
+                "uniek": 1
+            }
+        }
+    },
+    {
+        "question": "Mijn moeder houdt van",
+        "answers": [
+            "Bewegen",
+            "Lekker eten",
+            "Beiden"
+        ],
+        "filter": {
+            "Bewegen": {
+                "bewegen": 1,
+                "eten": 0,
+				"rust": 0
+            },
+            "Lekker eten": {
+                "sporten": 0,
+                "eten": 1,
+				"rust": 0
+            },
+            "Rust": {
+                "sporten": 0,
+                "eten": 0, 
+				"rust": 1
+            }
+        }
+    },
+    {
+        "question": "Mijn moeder is liever",
+        "answers": [
+            "Binnen",
+            "Buiten",
+            "Beiden"
+        ],
+        "filter": {
+            "Binnen": {
+                "binnen": 1,
+                "buiten": 0
+            },
+            "Buiten": {
+                "binnen": 0,
+                "buiten": 1
+            },
+            "Beiden": {
+                "binnen": 1,
+                "buiten": 1
+            }
+        }
+    }
+]

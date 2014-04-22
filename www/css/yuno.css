@@ -1,0 +1,58 @@
+.header {
+	background: #009BBC;
+	height: 100px;
+}
+
+.header .logo{
+	margin: 15px 5px;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+.price {
+	height: 100px;
+	background: #141918;
+}
+
+.price .title{
+	margin: 33px 0;
+	text-align: center;
+
+}
+
+.slider {
+	height: 300px;
+	margin: 100px auto;
+	border: none;
+
+}
+
+.slider .label {
+	background: url('../images/slider_label.png');
+	height: 185px;
+	width: 224px;
+	display: block;
+	position: absolute;
+	left:25px;
+	top: -90px;
+	
+}
+
+.slider .label span {
+	display: block;
+	color: #000;
+	font-size: 48px;
+	position: absolute;
+	left:100px;
+	top: 70px;	
+
+}
+
+.btn-yuno-blue {
+	background: #009BBC;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+}

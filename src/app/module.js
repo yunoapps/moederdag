@@ -5,19 +5,19 @@ angular.module('yuno', [
 .config(function($routeProvider, $locationProvider) {
       $routeProvider
         .when('/start', {
-          templateUrl: 'app/views/start.html',
+          templateUrl: 'views/start.html',
           controller: 'StartController'
         })
         .when('/price', {
-          templateUrl: 'app/views/price.html',
+          templateUrl: 'views/price.html',
           controller: 'PriceController'
         })
         .when('/questions', {
-          templateUrl: 'app/views/questions.html',
+          templateUrl: 'views/questions.html',
           controller: 'QuestionsController'
         })
         .when('/gifts', {
-          templateUrl: 'app/views/gifts.html',
+          templateUrl: 'views/gifts.html',
           controller: 'GiftsController'
         })
 

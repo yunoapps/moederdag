@@ -1,0 +1,17 @@
+<h1>Gifts?</h1>
+<pre>
+  Price: {{price}}
+  Filter: {{filter}}
+</pre>
+<ul class="media-list">
+  <li class="media" ng-repeat="gift in gifts | filter:giftFilter">
+    <a class="pull-left" ng-href="{{gift.link}}">
+      <img width="150px" class="media-object" src="{{gift.image}}" alt="image">
+    </a>
+    <div class="media-body">
+      <h4 class="media-heading">{{gift.name}}</h4>
+      <h4 class="media-heading">{{gift.price}}</h4>
+      {{gift.description}}
+    </div>
+  </li>
+</ul>

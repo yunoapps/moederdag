@@ -4,7 +4,7 @@ angular.module('yuno').controller("QuestionsController", function($log, $scope, 
 	$scope.filter = {};
 	$scope.questions = [];
 
-	$http.get("app/data/questions.json").success(function(data){
+	$http.get("data/questions.json").success(function(data){
 		$scope.questions = data;
 	});
 

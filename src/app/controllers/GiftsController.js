@@ -4,7 +4,7 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 	$scope.filter = yunoService.filter;
 	$scope.gifts = [];
 
-	$http.get("app/data/gifts.json").success(function(data){
+	$http.get("data/gifts.json").success(function(data){
 		$scope.gifts = data;
 	})
 
