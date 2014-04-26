@@ -61,7 +61,10 @@ angular.module('yuno', [
 					gift.binnen == $scope.filter.binnen ||
 					gift.buiten == $scope.filter.buiten 
 				) &&
-				gift.price < $scope.price
+				(
+					gift.price < $scope.price ||
+					(gift.price > $scope.price && $scope.price < 100)
+				)
 			);
 		}
 	}

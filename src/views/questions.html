@@ -1,5 +1,22 @@
-<h1>Question?</h1>
-<p>{{questions[step].question}}</p>
-<div>
-<button class="btn btn-default" ng-repeat="answer in questions[step].answers" ng-click="next(answer)">{{answer}}</button>
+<div class="row questions">
+	
+	<div class="col-xs-12 title">Vraag: {{step+1}}</div>
+
+	<div style="padding:25px;">
+		<div class="col-xs-12 question">{{questions[step].question}}</div>
+
+		<div>
+			<button class="btn btn-lg btn-block btn-yuno-pink" ng-click="next(questions[step].answers[0])">{{questions[step].answers[0]}}</button>
+			<button class="btn btn-lg btn-block btn-yuno-blue" ng-click="next(questions[step].answers[1])">{{questions[step].answers[1]}}</button>
+			<button class="btn btn-lg btn-block btn-yuno-green" ng-click="next(questions[step].answers[2])">{{questions[step].answers[2]}}</button>
+		</div>
+	</div>
+</div>
+
+<div class="navbar navbar-fixed-bottom">
+	<div class="container footer">
+		<div class="row row-medium">
+			<button class="btn btn-yuno-blue btn-lg btn-block" ng-click="next()">&lt; Terug</button>
+		</div>
+	</div>
 </div>

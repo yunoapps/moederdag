@@ -32,7 +32,10 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 					gift.binnen == $scope.filter.binnen ||
 					gift.buiten == $scope.filter.buiten 
 				) &&
-				gift.price < $scope.price
+				(
+					gift.price < $scope.price ||
+					(gift.price > $scope.price && $scope.price < 100)
+				)
 			);
 		}
 	}
