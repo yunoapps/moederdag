@@ -4,7 +4,7 @@
   Filter: {{filter}}
 </pre>
 <ul class="media-list">
-  <li class="media" ng-repeat="gift in gifts | filter:giftFilter">
+  <li class="media" ng-repeat="gift in gifts | filter:giftFilter | orderBy:waardering">
     <a class="pull-left" ng-href="{{gift.link}}">
       <img width="150px" class="media-object" src="{{gift.image}}" alt="image">
     </a>

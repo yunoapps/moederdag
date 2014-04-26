@@ -11,6 +11,24 @@
 	margin-top: 75px;
 }
 
+.start{
+
+}
+
+.start .top{
+	background: #000;
+	color:#FFF;
+	text-align: center;
+	padding: 15px;
+	font-size: 24px;
+}
+
+.start .bottom{
+	text-align: center;
+	padding: 15px;
+	font-size: 24px;
+}
+
 .price {
 	height: 75px;
 	background: #141918;

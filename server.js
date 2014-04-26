@@ -1,4 +1,4 @@
 var connect = require('connect');
 connect.createServer(
-    connect.static("www")
+    connect.static("src")
 ).listen(8080);
