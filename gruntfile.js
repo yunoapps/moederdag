@@ -30,6 +30,12 @@ module.exports = function(grunt) {
 			src: 'src/data/*',
 			dest: 'www/data/'
 		},
+		products:{
+			expand: true, 
+			flatten: true,
+			src: 'src/products/*',
+			dest: 'www/products/'
+		},
 		images:{
 			expand: true, 
 			flatten: true,

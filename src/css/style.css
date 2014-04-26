@@ -33,14 +33,14 @@
 	background: #000;
 	color:#FFF;
 	text-align: center;
-	padding: 15px;
-	font-size: 24px;
+	padding: 25px;
+	font-size: 28px;
 }
 
 .start .bottom{
 	text-align: center;
-	padding: 15px;
-	font-size: 18px;
+	padding: 25px;
+	font-size: 24px;
 }
 
 .price {
@@ -50,7 +50,7 @@
 .price .title{
 	margin: 15px 0;
 	text-align: center;
-	font-size: 24px;
+	font-size: 28px;
 	color: #FFF;
 }
 
@@ -91,7 +91,7 @@
 
 .btn-yuno-blue {
 	background: #009BBC;
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold;
 	color: #FFF;
 	border-radius: 0;
@@ -99,7 +99,7 @@
 
 .btn-yuno-pink {
 	background: #FFBBD7;
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold;
 	color: #FFF;
 	border-radius: 0;
@@ -107,7 +107,7 @@
 
 .btn-yuno-green {
 	background: #87E634;
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold;
 	color: #FFF;
 	border-radius: 0;
@@ -121,7 +121,7 @@
 	background: #000;
 	color:#FFF;
 	padding:15px;
-	font-size: 24px;
+	font-size: 28px;
 	text-align: center;
 	font-family: TrashHand, Verdana;
 }
@@ -156,7 +156,7 @@
 	background: #000;
 	color:#FFF;
 	padding:15px;
-	font-size: 24px;
+	font-size: 28px;
 	text-align: center;
 	font-family: TrashHand, Verdana;
 }
