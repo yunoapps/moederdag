@@ -124,6 +124,10 @@ angular.module('yuno', [
 		}
 	};
 
+	$scope.back = function(answer){
+		$location.path("/price");
+	};
+
 });angular.module('yuno').controller("StartController", function($log, $scope, $location) {
 
 	$scope.start = function(){

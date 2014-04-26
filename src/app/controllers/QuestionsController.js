@@ -25,4 +25,8 @@ angular.module('yuno').controller("QuestionsController", function($log, $scope, 
 		}
 	};
 
+	$scope.back = function(answer){
+		$location.path("/price");
+	};
+
 });
