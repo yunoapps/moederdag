@@ -1,17 +1,22 @@
-<h1>Gifts?</h1>
-<pre>
+<!--<pre>
   Price: {{price}}
   Filter: {{filter}}
-</pre>
-<ul class="media-list">
-  <li class="media" ng-repeat="gift in gifts | filter:giftFilter | orderBy:waardering">
-    <a class="pull-left" ng-href="{{gift.link}}">
-      <img width="150px" class="media-object" src="{{gift.image}}" alt="image">
-    </a>
-    <div class="media-body">
-      <h4 class="media-heading">{{gift.name}}</h4>
-      <h4 class="media-heading">{{gift.price}}</h4>
-      {{gift.description}}
+</pre>-->
+
+<div class="row gifts">
+    <button class="btn btn-yuno-blue btn-lg back" ng-click="back()">&lt;</button>
+    <button class="btn btn-yuno-blue btn-lg next" ng-click="next()">&gt;</button>
+    <div class="title">Het ideale cadeau</div>
+    <img class="image" ng-src="{{gift().image}}" />
+    <div class="name">{{gift().name}}</div>
+    <div class="description">{{gift().description}}</div>
+
+</div>
+
+<div class="navbar navbar-fixed-bottom">
+  <div class="container footer">
+    <div class="row row-medium">
+      <button class="btn btn-yuno-blue btn-lg btn-block" ng-click="next()">Bestellen</button>
     </div>
-  </li>
-</ul>
+  </div>
+</div>

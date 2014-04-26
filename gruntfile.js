@@ -36,6 +36,12 @@ module.exports = function(grunt) {
 			src: 'src/images/*',
 			dest: 'www/images/'
 		},
+		fonts:{
+			expand: true, 
+			flatten: true,
+			src: 'src/fonts/*',
+			dest: 'www/fonts/'
+		},
 		views:{
 			expand: true, 
 			flatten: true,

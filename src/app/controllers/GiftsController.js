@@ -1,22 +1,30 @@
-angular.module('yuno').controller("GiftsController", function($log, $scope, $location, $http, yunoService) {
+angular.module('yuno').controller("GiftsController", function($log, $scope, $location, $http, $filter, yunoService) {
+
+	var step = 0;
+	var gifts = [];
 
 	$scope.price = yunoService.price;
 	$scope.filter = yunoService.filter;
-	$scope.gifts = [];
-
+	
 	$http.get("data/gifts.json").success(function(data){
-		$scope.gifts = data;
+		gifts = data;
+		gifts = $filter('filter')(gifts, $scope.giftFilter);
+		gifts = $filter('orderBy')(gifts, "-waardering");
 	})
 
 	if(!$scope.filter){
-		$location.path("/price");
+		//$location.path("/price");
 	}
 
+	$scope.gift = function(){
+		$log.debug(gifts);
+		return gifts[step];
+	}
 
 	$scope.giftFilter = function(gift){
 		$log.debug("Filter", gift);
 
-		gift.image = "images/" + gift.refid + ".jpg";
+		gift.image = "products/" + gift.refname + ".jpg";
 
 		if($scope.filter){
 			return (
@@ -34,10 +42,22 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 				) &&
 				(
 					gift.price < $scope.price ||
-					(gift.price > $scope.price && $scope.price < 100)
+					$scope.price == 100
 				)
 			);
 		}
 	}
+
+	$scope.next = function(){
+		if(step < gifts.length-1){
+			step++;
+		}
+	}
+
+	$scope.back = function(){
+		if(step > 0){
+			step--
+		}
+	}	
 
 });

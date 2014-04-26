@@ -1,3 +1,13 @@
+@font-face
+{
+	font-family: TrashHand;
+	src: url('../fonts/TrashHand.TTF');
+}
+
+.btn {
+	font-family: TrashHand, Verdana;
+}
+
 .header {
 	background: #009BBC;
 	height: 75px;
@@ -15,13 +25,16 @@
 .start{
 
 }
+.start span.trashHand {
+	font-family: TrashHand, Verdana;
+}
 
 .start .top{
 	background: #000;
 	color:#FFF;
 	text-align: center;
 	padding: 15px;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .start .bottom{
@@ -31,14 +44,18 @@
 }
 
 .price {
-	height: 75px;
 	background: #141918;
 }
 
 .price .title{
-	margin: 17px 0;
+	margin: 15px 0;
 	text-align: center;
+	font-size: 24px;
+	color: #FFF;
+}
 
+.price .title strong{
+	font-family: TrashHand, Verdana;
 }
 
 .slider {
@@ -106,6 +123,7 @@
 	padding:15px;
 	font-size: 24px;
 	text-align: center;
+	font-family: TrashHand, Verdana;
 }
 
 .questions .question{
@@ -113,4 +131,44 @@
 	font-size: 18px;
 	padding:30px;
 	text-align: center;
+}
+
+.gifts{
+	position: relative;
+	margin-bottom:75px;
+}
+
+.gifts .next{
+	position: fixed;
+	right: 0px;
+	top:50%;
+	background: #FFBBD7;
+}
+
+.gifts .back{
+	position: fixed;
+	left: 0px;
+	top:50%;
+	background: #FFBBD7;
+}
+
+.gifts .title{
+	background: #000;
+	color:#FFF;
+	padding:15px;
+	font-size: 24px;
+	text-align: center;
+	font-family: TrashHand, Verdana;
+}
+
+.gifts .image{
+	width: 100%;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.gifts .name{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
