@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 		views:{
 			expand: true, 
 			flatten: true,
-			src: 'src/app/views/*',
+			src: 'src/views/*',
 			dest: 'www/views/'
 		},
 		lib: {
