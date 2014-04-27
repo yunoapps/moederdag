@@ -14,9 +14,19 @@
 	border-bottom: #FFBBD7 solid 5px;
 }
 
-.header .logo{
+.header .logo img{
+	display: block;
 	margin: 15px 5px;
 }
+
+.header .home {
+	height: 100%;
+	text-align: right;
+}
+
+.header .home a{
+	margin: 11px 0;
+	}
 
 .content {
 	margin-top: 75px;
@@ -40,7 +50,7 @@
 .start .bottom{
 	text-align: center;
 	padding: 25px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .price {
@@ -58,11 +68,27 @@
 	font-family: TrashHand, Verdana;
 }
 
+
 .slider {
-	height: 300px;
+	width: 10px;
+	height: 200px;
 	margin: 75px auto;
 	border: none;
+	border-radius: 0;
+	background: url('../images/slider_bg.png');
 
+}
+
+.slider a.ui-slider-handle{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background: #000;
+	border: #87E634 solid 3px;
+}
+
+.slider .ui-slider-range{
+	background: none;
 }
 
 .slider .label {
@@ -72,7 +98,9 @@
 	display: block;
 	position: absolute;
 	left:25px;
-	top: -50px;
+	top: -44px;
+	font-family: TrashHand, Verdana;
+	padding:0;
 	
 }
 
@@ -143,6 +171,7 @@
 	right: 0px;
 	top:50%;
 	background: #FFBBD7;
+	font-size: 40px;
 }
 
 .gifts .back{
@@ -150,6 +179,7 @@
 	left: 0px;
 	top:50%;
 	background: #FFBBD7;
+	font-size: 40px;
 }
 
 .gifts .title{
@@ -163,8 +193,8 @@
 
 .gifts .image{
 	width: 100%;
-	margin-bottom: 20px;
 	display: block;
+	margin-bottom: 20px
 }
 
 .gifts .name{
