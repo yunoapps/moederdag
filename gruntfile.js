@@ -65,7 +65,8 @@ module.exports = function(grunt) {
 					'jquery-ui-touch-punch/jquery.ui.touch-punch.js',
 					'bootstrap/js/bootstrap.min.js',
 					'angular/angular.js',
-					'angular/angular-route.js'
+					'angular/angular-route.js',
+					'angular/angular-touch.js'
 				],
 				dest: 'www/lib/',
 			},
