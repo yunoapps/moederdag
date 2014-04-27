@@ -89,12 +89,12 @@
 
 .slider .tag-5{
 	background: url('../images/label_5.png');
-	top: 145px;
+	bottom: -25px;
 }
 
 .slider .tag-100{
 	background: url('../images/label_100.png');
-	top: -20px;
+	top: -25px;
 }
 
 .slider a.ui-slider-handle{
