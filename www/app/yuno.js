@@ -145,7 +145,11 @@ angular.module('yuno', [
 	};
 
 	$scope.back = function(answer){
-		$location.path("/price");
+		if($scope.step > 0){
+			$scope.step--;
+		}else{
+			$location.path("/price");
+		}
 	};
 
 });angular.module('yuno').controller("StartController", function($log, $scope, $location) {
