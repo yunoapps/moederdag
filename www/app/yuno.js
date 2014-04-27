@@ -99,7 +99,7 @@ angular.module('yuno', [
 	var slider = $( "#slider" ).slider({
       orientation: "vertical",
       range: "min",
-      min: 0,
+      min: 5,
       max: 100,
       step: 5,
       value: $scope.price,

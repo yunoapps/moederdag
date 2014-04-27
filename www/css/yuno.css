@@ -79,12 +79,30 @@
 
 }
 
+.slider .tag{
+	width: 125px;
+	height: 81px;
+	background: #000;
+	position: absolute;
+	left: -125px;
+}
+
+.slider .tag-5{
+	background: url('../images/label_5.png');
+	top: 145px;
+}
+
+.slider .tag-100{
+	background: url('../images/label_100.png');
+	top: -20px;
+}
+
 .slider a.ui-slider-handle{
 	width: 20px;
 	height: 20px;
 	border-radius: 10px;
 	background: #000;
-	border: #87E634 solid 3px;
+	border: #87E634 solid 4px;
 }
 
 .slider .ui-slider-range{
