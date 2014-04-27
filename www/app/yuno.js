@@ -1,5 +1,6 @@
 angular.module('yuno', [
-	'ngRoute'
+	'ngRoute',
+  'ngTouch'
 ])
 
 .config(function($routeProvider, $locationProvider) {
