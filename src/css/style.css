@@ -25,7 +25,7 @@
 }
 
 .header .home a{
-	margin: 11px 0;
+	margin: 12px 0;
 	}
 
 .content {
@@ -71,12 +71,17 @@
 
 .slider {
 	width: 10px;
-	height: 200px;
+	height: 300px;
 	margin: 75px auto;
 	border: none;
 	border-radius: 0;
 	background: url('../images/slider_bg.png');
+}
 
+@media (max-height: 600px) {
+	.slider {
+		height: 200px;
+	}
 }
 
 .slider .tag{
