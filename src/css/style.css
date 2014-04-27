@@ -40,7 +40,7 @@
 .start .bottom{
 	text-align: center;
 	padding: 25px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .price {
@@ -143,6 +143,7 @@
 	right: 0px;
 	top:50%;
 	background: #FFBBD7;
+	font-size: 40px;
 }
 
 .gifts .back{
@@ -150,6 +151,7 @@
 	left: 0px;
 	top:50%;
 	background: #FFBBD7;
+	font-size: 40px;
 }
 
 .gifts .title{
@@ -163,8 +165,8 @@
 
 .gifts .image{
 	width: 100%;
-	margin-bottom: 20px;
 	display: block;
+	margin-bottom: 20px
 }
 
 .gifts .name{
