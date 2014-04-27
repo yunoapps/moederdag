@@ -1,11 +1,12 @@
 <div class="row questions">
 	
-	<div class="col-xs-12 title">Vraag: {{step+1}}</div>
+	<div class="title" class="col-xs-12" >Vraag: {{step+1}}</div>
 
-	<div style="padding:25px;">
-		<div class="col-xs-12 question">{{questions[step].question}}</div>
+	<div class="col-xs-12">
 
-		<div>
+		<div class="question">{{questions[step].question}}</div>
+
+		<div margin 10px;>
 			<button class="btn btn-lg btn-block btn-yuno-pink" ng-click="next(questions[step].answers[0])">{{questions[step].answers[0]}}</button>
 			<button class="btn btn-lg btn-block btn-yuno-blue" ng-click="next(questions[step].answers[1])">{{questions[step].answers[1]}}</button>
 			<button class="btn btn-lg btn-block btn-yuno-green" ng-click="next(questions[step].answers[2])">{{questions[step].answers[2]}}</button>
