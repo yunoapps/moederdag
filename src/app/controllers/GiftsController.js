@@ -60,4 +60,13 @@ angular.module('yuno').controller("GiftsController", function($log, $scope, $loc
 		}
 	}	
 
+	$scope.order = function(){
+		var gift = gifts[step];
+		var url = "http://partnerprogramma.bol.com/click/click?p=1&s=27614&t=p&sec=all:&f=PDL&";
+		url += "pid=" + gift.refid;
+		url += "&name=YUNO&subid=Moederdag";
+		window.open(url);
+
+	}	
+
 });

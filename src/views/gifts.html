@@ -7,16 +7,23 @@
     <button class="btn btn-yuno-blue btn-lg back" ng-click="back()">&lt;</button>
     <button class="btn btn-yuno-blue btn-lg next" ng-click="next()">&gt;</button>
     <div class="title">Het ideale cadeau</div>
-    <img class="image" ng-src="{{gift().image}}" />
-    <div class="name">{{gift().name}}</div>
-    <div class="description">{{gift().description}}</div>
+    <div class="holder">
+      <img class="image" ng-src="{{gift().image}}" />
+    </div>
+    <div class="description">
+      <span class="pull-right"><strong>&euro; {{gift().price}}</strong></span>
+      <span><strong>{{gift().name}}</strong></span></br>
+      <span>{{gift().description}}</span>
+    </div>
+    
+   
 
 </div>
 
 <div class="navbar navbar-fixed-bottom">
   <div class="container footer">
     <div class="row row-medium">
-      <a class="btn btn-yuno-blue btn-lg btn-block" target="_blank" href="http://bol.com">Bestel bij BOL.com</a>
+      <a class="btn btn-yuno-blue btn-lg btn-block" ng-click="order()">Bestel bij BOL.com</a>
     </div>
   </div>
 </div>

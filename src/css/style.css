@@ -4,8 +4,10 @@
 	src: url('../fonts/TrashHand.TTF');
 }
 
-.btn {
+.btn, .btn:hover{
+	color:#FFF;
 	font-family: TrashHand, Verdana;
+	text-shadow: 1px 1px #000000;
 }
 
 .header {
@@ -122,6 +124,7 @@
 	left:25px;
 	top: -44px;
 	font-family: TrashHand, Verdana;
+	text-shadow: 1px 1px #000000;
 	padding:0;
 	
 }
@@ -213,14 +216,20 @@
 	font-family: TrashHand, Verdana;
 }
 
-.gifts .image{
-	width: 100%;
-	display: block;
-	margin-bottom: 20px
+.gifts .holder{
+	height: 400px;
+	overflow: hidden;
+	text-align: center;
 }
 
-.gifts .name{
-	font-size: 16px;
-	font-weight: bold;
-	margin-bottom: 10px;
+.gifts .image{
+	max-height: 400px;
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 0 20px
+}
+
+.gifts .description{
+	padding: 0 50px;
 }
