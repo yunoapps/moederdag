@@ -48,7 +48,7 @@
         "answers": [
             "Sportief",
             "Culinair",
-            "Relaxt"
+            "Gezellig"
         ],
         "filter": {
             "Sportief": {
@@ -61,7 +61,7 @@
                 "culinair": 1,
                 "relaxt": 0
             },
-            "Relaxt": {
+            "Gezellig": {
                 "sportief": 0,
                 "culinair": 0,
                 "relaxt": 1
