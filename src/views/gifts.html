@@ -2,28 +2,30 @@
   Price: {{price}}
   Filter: {{filter}}
 </pre>-->
-
 <div class="row gifts" ng-swipe-right="back()" ng-swipe-left="next()">
     <button class="btn btn-yuno-blue btn-lg back" ng-click="back()">&lt;</button>
+    <button class="btn btn-yuno-blue btn-lg first" ng-click="first()">&lt;&lt;</button>
     <button class="btn btn-yuno-blue btn-lg next" ng-click="next()">&gt;</button>
-    <div class="title">Het ideale cadeau</div>
+    <div class="title">Het ideale cadeau </div>
     <div class="holder">
       <img class="image" ng-src="{{gift().image}}" />
     </div>
     <div class="description">
       <span class="pull-right"><strong>&euro; {{gift().price}}</strong></span>
-      <span><strong>{{gift().name}}</strong></span></br>
-      <span>{{gift().description}}</span>
+      <span><strong>{{gift().gifts}} {{gift().matchfactoRound}}&#37; match</strong></span></br>
+      <span>{{gift().description}}</span><br>
+        <span>Bestel dit cadeau bij</span>
+        <img src="images/bol_com.png" width="80px">
     </div>
-    
-   
+
+
 
 </div>
 
 <div class="navbar navbar-static-bottom">
   <div class="container footer">
     <div class="row row-medium">
-      <a class="btn btn-yuno-blue btn-lg btn-block" ng-click="order()">Naar de webshop</a>
+      <a class="btn btn-yuno-blue btn-lg btn-block" >Delen</a>
     </div>
   </div>
 </div>

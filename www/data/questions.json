@@ -1,6 +1,25 @@
 [
     {
-        "question": "Mijn moeder zou het cadeau graag samen willen beleven",
+        "question": "Het cadeau is voor een",
+        "answers": [
+            "Man",
+            "Vrouw"
+        ],
+        "filter": {
+            "Man": {
+                "Man": 1
+            },
+            "Vrouw": {
+                "Man": 0
+            }
+        }
+    },
+    {
+        "question": "Het cadeau is voor"
+
+    },
+    {
+        "question": "[NAAM] het cadeau graag samen willen beleven",
         "answers": [
             "Ja",
             "Nee",
@@ -19,7 +38,7 @@
         }
     },
     {
-        "question": "Een goed cadeau voor mijn moeder is",
+        "question": "Een goed cadeau is",
         "answers": [
             "Luxe",
             "Praktisch",
@@ -44,7 +63,7 @@
         }
     },
     {
-        "question": "Mijn moeder is",
+        "question": "[NAAM] is",
         "answers": [
             "Sportief",
             "Culinair",
@@ -54,7 +73,7 @@
             "Sportief": {
                 "sportief": 1,
                 "culinair": 0,
-				"relaxt": 0
+                "relaxt": 0
             },
             "Culinair": {
                 "sportief": 0,
@@ -69,7 +88,7 @@
         }
     },
     {
-        "question": "Mijn moeder is liever",
+        "question": "[NAAM] is liever",
         "answers": [
             "Binnen",
             "Buiten",
@@ -78,15 +97,18 @@
         "filter": {
             "Binnen": {
                 "binnen": 1,
-                "buiten": 0
+                "buiten": 0,
+                "beiden": 0
             },
             "Buiten": {
                 "binnen": 0,
-                "buiten": 1
+                "buiten": 1,
+                "beiden": 0
             },
             "Beiden": {
-                "binnen": 1,
-                "buiten": 1
+                "binnen": 0,
+                "buiten": 0,
+                "beiden": 1
             }
         }
     }

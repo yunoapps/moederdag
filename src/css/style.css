@@ -207,6 +207,15 @@
 	font-size: 40px;
 }
 
+.gifts .first{
+	position: fixed;
+	left: 0px;
+	top:50%;
+	background: #FFBBD7;
+	font-size: 40px;
+    margin-top: -90px;
+}
+
 .gifts .title{
 	background: #000;
 	color:#FFF;
