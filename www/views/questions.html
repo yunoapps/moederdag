@@ -6,18 +6,11 @@
 
 		<div class="question">{{questions[step].question}}</div>
 
-		<div ng-show="multipleChoiceDisplay">
+		<div margin 10px;>
 			<button class="btn btn-lg btn-block btn-yuno-pink" ng-click="next(questions[step].answers[0])">{{questions[step].answers[0]}}</button>
 			<button class="btn btn-lg btn-block btn-yuno-blue" ng-click="next(questions[step].answers[1])">{{questions[step].answers[1]}}</button>
 			<button class="btn btn-lg btn-block btn-yuno-green" ng-click="next(questions[step].answers[2])">{{questions[step].answers[2]}}</button>
 		</div>
-
-        <div ng-show="!multipleChoiceDisplay">
-            <form ng-submit="setName()">
-                <input type="text" placeholder="Naam" ng-model="name" class="btn btn-lg btn-block btn-yuno-pink" autofocus>
-                <input type="submit" value="volgende" class="btn btn-lg btn-block btn-yuno-pink">
-            </form>
-        </div>
 	</div>
 </div>
 
