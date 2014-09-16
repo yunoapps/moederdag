@@ -66,7 +66,8 @@ module.exports = function(grunt) {
 					'bootstrap/js/bootstrap.min.js',
 					'angular/angular.js',
 					'angular/angular-route.js',
-					'angular/angular-touch.js'
+					'angular/angular-touch.js',
+					'SocialSharing/SocialSharing.js'
 				],
 				dest: 'www/lib/',
 			},
