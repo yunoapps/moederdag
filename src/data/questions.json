@@ -10,16 +10,12 @@
                 "Man": 1
             },
             "Vrouw": {
-                "Man": 0
+                "Vrouw": 0
             }
         }
     },
     {
-        "question": "Het cadeau is voor"
-
-    },
-    {
-        "question": "[NAAM] het cadeau graag samen willen beleven",
+        "question": "We zouden het cadeau graag samen willen beleven",
         "answers": [
             "Ja",
             "Nee",
@@ -63,7 +59,7 @@
         }
     },
     {
-        "question": "[NAAM] is",
+        "question": "De ontvanger is",
         "answers": [
             "Sportief",
             "Culinair",
@@ -73,7 +69,7 @@
             "Sportief": {
                 "sportief": 1,
                 "culinair": 0,
-                "relaxt": 0
+				"relaxt": 0
             },
             "Culinair": {
                 "sportief": 0,
@@ -88,7 +84,7 @@
         }
     },
     {
-        "question": "[NAAM] is liever",
+        "question": "De ontvanger is liever",
         "answers": [
             "Binnen",
             "Buiten",
@@ -97,18 +93,15 @@
         "filter": {
             "Binnen": {
                 "binnen": 1,
-                "buiten": 0,
-                "beiden": 0
+                "buiten": 0
             },
             "Buiten": {
                 "binnen": 0,
-                "buiten": 1,
-                "beiden": 0
+                "buiten": 1
             },
             "Beiden": {
-                "binnen": 0,
-                "buiten": 0,
-                "beiden": 1
+                "binnen": 1,
+                "buiten": 1
             }
         }
     }

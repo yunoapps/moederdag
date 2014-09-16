@@ -1,21 +1,6 @@
 [
     {
-        "question": "Het cadeau is voor een",
-        "answers": [
-            "Man",
-            "Vrouw"
-        ],
-        "filter": {
-            "Man": {
-                "Man": 1
-            },
-            "Vrouw": {
-                "Vrouw": 0
-            }
-        }
-    },
-    {
-        "question": "We zouden het cadeau graag samen willen beleven",
+        "question": "Mijn moeder zou het cadeau graag samen willen beleven",
         "answers": [
             "Ja",
             "Nee",
@@ -34,7 +19,7 @@
         }
     },
     {
-        "question": "Een goed cadeau is",
+        "question": "Een goed cadeau voor mijn moeder is",
         "answers": [
             "Luxe",
             "Praktisch",
@@ -59,7 +44,7 @@
         }
     },
     {
-        "question": "De ontvanger is",
+        "question": "Mijn moeder is",
         "answers": [
             "Sportief",
             "Culinair",
@@ -84,7 +69,7 @@
         }
     },
     {
-        "question": "De ontvanger is liever",
+        "question": "Mijn moeder is liever",
         "answers": [
             "Binnen",
             "Buiten",
