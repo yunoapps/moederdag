@@ -3,10 +3,10 @@ angular.module('yuno').controller("PriceController", function($log, $scope, $loc
 	$scope.price = 40;
 
 	var label = $("<div class='label' />");
-	label.append($("<span />").text($scope.price));
+	label.append($("<span />").text('<€ '+$scope.price));
 
 	var slider = $( "#slider" ).slider({
-      orientation: "vertical",
+      orientation: "horizontal",
       range: "min",
       min: 5,
       max: 100,
@@ -14,16 +14,16 @@ angular.module('yuno').controller("PriceController", function($log, $scope, $loc
       value: $scope.price,
       slide: function( event, ui ) {
         $scope.price = ui.value;
-        slider.find(".label span").text($scope.price);
+        $(".price-label span").text('<€ ' + $scope.price);
         $scope.$apply();
         
       }
     });
-    slider.find("a").append(label);
+    $('.price-label').append(label);
 
 	$scope.next = function(){
 		yunoService.price = $scope.price;
-		$location.path("/questions");
+		$location.path("/gifts");
 	}
 	
 });

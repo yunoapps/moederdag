@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="yuno">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="telephone=no"/>
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi"/>
 
     <title>YuNo</title>
 
@@ -22,41 +23,43 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <script type="text/javascript" src="phonegap.js"></script>
 
-      <script type="text/javascript" src="cordova/cordova.js"></script>
+    <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+    <script type="text/javascript" src="cordova.js"></script>
 
-      <![endif]-->
-  </head>
-  <body>
+    <script type="text/javascript" src="lib/SocialSharing/SocialSharing.js"></script>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="container header">
-        <div class="row row-header  ">
-          <div class="col-xs-8 logo">
-            <img height="40px" src="images/logo_yuno_moederdag.png" />
-          </div>
-          <div class="col-xs-4 home">
-            <a class="btn" style="margin: 8px 0;" href="index.html#/start" onclick="$(window)[0].plugins.socialsharing.share('Message only')" >
-              <img height="40px" src="images/homeicon.png" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container content">
-      <div ng-view></div>
-    </div>
 
+    <![endif]-->
+</head>
+<body>
+
+
+</div>
+<div class="container content">
+    <div ng-view></div>
+</div>
+
+<div class="navbar navbar-fixed-top">
+    <img src="images/gr_Crosshair.png" width="100%" height="50px" class="background">
+    <table>
+        <tr>
+            <td><img src="images/ic_back.png"></td>
+            <td><img class="navicon" src="images/ic_letter.png"></td>
+            <td><img class="navicon" src="images/ic_letter.png"></td>
+            <td><img class="navicon" src="images/ic_letter.png"></td>
+            <td><img class="navicon" src="images/ic_letter.png"></td>
+            <td><img class="navicon" src="images/ic_letter.png"></td>
+        </tr>
+    </table>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="lib/jquery/js/jquery.js"></script>
     <script src="lib/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
 
     <script src="lib/jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
-    
-    <!-- Include all compiled plugins (below), or include individual files as needed 
+
+    <!-- Include all compiled plugins (below), or include individual files as needed
     <script src="lib/bootstrap/js/bootstrap.js"></script> -->
 
     <script src="lib/angular/angular.js"></script>
@@ -69,15 +72,14 @@
     <script src="app/controllers/PriceController.js"></script>
     <script src="app/controllers/QuestionsController.js"></script>
     <script src="app/controllers/GiftsController.js"></script>
+    <script src="app/controllers/GiftController.js"></script>
     <script src="app/services/YunoService.js"></script>
     <!-- /build -->
 
-    <script type="text/javascript" src="lib/SocialSharing/SocialSharing.js"></script>
 
+    <!--<script type="text/javascript">-->
+        <!--app.initialize();-->
+    <!--</script>-->
 
-    <script type="text/javascript">
-      app.initialize();
-    </script>
-
-  </body>
+</body>
 </html>

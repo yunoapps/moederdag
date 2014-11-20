@@ -1,0 +1,42 @@
+[
+  {
+    "question": 0,
+    "icons": [
+      "ic_man_large",
+      "ic_woman_large",
+      ""
+    ]
+  },
+  {},
+  {
+    "question": 2,
+    "icons": [
+      "ic_practical",
+      "ic_unique",
+      "ic_luxorious"
+    ]
+  },
+  {
+    "question": 3,
+    "icons": [
+      "ic_Cozy",
+      "ic_culinary",
+      "ic_athletic"
+    ]
+  },
+  {
+  "question": 5,
+  "icons": [
+    "ic_inside",
+    "ic_outside",
+    "ic_dontcare"
+  ]
+},{
+  "question": 6,
+  "icons": [
+    "ic_experience",
+    "ic_product",
+    "ic_dontcare"
+  ]
+}
+]

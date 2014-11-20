@@ -1,0 +1,107 @@
+[
+  {
+    "answernr":"answer11",
+    "questionnr":1,
+    "question_text":"Voor wie zoek je een cadeau?",
+    "answer_icon":"ic_man_large",
+    "answer_text":"man"
+  },
+  {
+    "answernr":"answer12",
+    "questionnr":1,
+    "question_text":"Voor wie zoek je een cadeau?",
+    "answer_icon":"ic_woman_large",
+    "answer_text":"vrouw"
+  },
+  {
+    "answernr":"answer21",
+    "questionnr":2,
+    "question_text":"Wat is zijn/haar naam?",
+    "answer_icon":"",
+    "answer_text":""
+  },
+  {
+    "answernr":"answer31",
+    "questionnr":3,
+    "question_text":"Wat voor type cadeau zou [name] blij maken",
+    "answer_icon":"ic_practical",
+    "answer_text":"praktisch"
+  },
+  {
+    "answernr":"answer32",
+    "questionnr":3,
+    "question_text":"Wat voor type cadeau zou [name] blij maken",
+    "answer_icon":"ic_unique",
+    "answer_text":"uniek"
+  },
+  {
+    "answernr":"answer33",
+    "questionnr":3,
+    "question_text":"Wat voor type cadeau zou [name] blij maken",
+    "answer_icon":"ic_luxorious",
+    "answer_text":"luxe"
+  },
+  {
+    "answernr":"answer41",
+    "questionnr":4,
+    "question_text":"Wat voor persoon is [name]?",
+    "answer_icon":"ic_Cozy",
+    "answer_text":"gezellig"
+  },
+  {
+    "answernr":"answer42",
+    "questionnr":4,
+    "question_text":"Wat voor persoon is [name]?",
+    "answer_icon":"ic_culinary",
+    "answer_text":"culinair"
+  },
+  {
+    "answernr":"answer43",
+    "questionnr":4,
+    "question_text":"Wat voor persoon is [name]?",
+    "answer_icon":"ic_athletic",
+    "answer_text":"sportief"
+  },
+  {
+    "answernr":"answer51",
+    "questionnr":5,
+    "question_text":"[Name] is liever",
+    "answer_icon":"ic_inside",
+    "answer_text":"binnen"
+  },
+  {
+    "answernr":"answer52",
+    "questionnr":5,
+    "question_text":"[Name] is liever",
+    "answer_icon":"ic_outside",
+    "answer_text":"buiten"
+  },
+  {
+    "answernr":"answer53",
+    "questionnr":5,
+    "question_text":"[Name] is liever",
+    "answer_icon":"ic_dontcare",
+    "answer_text":"beiden"
+  },
+  {
+    "answernr":"answer61",
+    "questionnr":6,
+    "question_text":"Ik geef bij voorkeur als cadeau",
+    "answer_icon":"ic_experience",
+    "answer_text":"een belevenis"
+  },
+  {
+    "answernr":"answer62",
+    "questionnr":6,
+    "question_text":"Ik geef bij voorkeur als cadeau",
+    "answer_icon":"ic_product",
+    "answer_text":"een product"
+  },
+  {
+    "answernr":"answer63",
+    "questionnr":6,
+    "question_text":"Ik geef bij voorkeur als cadeau",
+    "answer_icon":"ic_dontcare",
+    "answer_text":"maakt niet uit"
+  }
+]

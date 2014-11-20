@@ -1,0 +1,14 @@
+{
+    "version": "0.0.2",
+    "name": "com.byhook.cordova.chromelauncher",
+    "cordova_name": "ChromeLauncher",
+    "description": "Launches the Chrome web browser in iOS and Android.",
+    "license": "Apache 2.0",
+    "keywords": [
+        "google",
+        "chrome",
+        "launcher",
+        "browser"
+    ],
+    "engines": []
+}

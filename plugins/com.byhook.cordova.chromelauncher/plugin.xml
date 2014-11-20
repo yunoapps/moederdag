@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.byhook.cordova.chromelauncher"
+		version="0.0.2">
+
+    <name>ChromeLauncher</name>
+    <description>Launches the Chrome web browser in iOS and Android.</description>
+    <license>Apache 2.0</license>
+    <keywords>google,chrome,launcher,browser</keywords>
+    <repo>https://github.com/normmcgarry/cordova-chromelauncher.git</repo>
+    <issue>https://github.com/normmcgarry/cordova-chromelauncher/issues</issue>
+
+    <js-module src="www/ChromeLauncher.js" name="ChromeLauncher">
+        <clobbers target="window.ChromeLauncher" />
+    </js-module>
+    
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+			<feature name="ChromeLauncher">
+				<param name="ios-package" value="ChromeLauncher"/>
+			</feature>
+        </config-file>
+
+		<header-file src="src/ios/ChromeLauncher.h" />
+		<source-file src="src/ios/ChromeLauncher.m" />
+		
+    </platform>
+ 
+    <!-- android -->
+    <platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ChromeLauncher">
+                <param name="android-package" value="com.byhook.cordova.chromelauncher.ChromeLauncher"/>
+            </feature>   
+        </config-file>
+        
+        <source-file src="src/android/ChromeLauncher.java" target-dir="src/com/byhook/cordova/chromelauncher" />
+        
+    </platform>
+
+</plugin>

@@ -1,19 +1,28 @@
-<div class="row price">
-	<div class="col-xs-12 title">
-		Wat is je <strong>Budget?</strong>
-	</div>
-</div>
-<div>
+<div class="row questions">
 
-<div id="slider" class="slider">
-	<div class="tag tag-100"></div>
-	<div class="tag tag-5"></div>
-</div>
 
-<div class="navbar navbar-fixed-bottom">
-	<div class="container footer">
-		<div class="row row-medium">
-			<button class="btn btn-yuno-blue btn-lg btn-block" ng-click="next()">Volgende &gt;</button>
-		</div>
-	</div>
+    <div class="question">Wat is je budget?</div>
+    <div>
+        <div class="slider-tags">
+            <div class="tag tag-100">€100+</div>
+            <div class="tag tag-5">€0</div>
+        </div>
+        <div id="slider" class="slider">
+
+        </div>
+    </div>
+
+    <div class="multiple-choice-cont">
+        <div>
+            <button class="btn-search-gifts btn-yuno " ng-click="next(questions[step].answers[0])">
+                Zoek kado's
+            </button>
+
+        </div>
+    </div>
+
+    <div class="price-label"></div>
+
+
+
 </div>

@@ -1,7 +1,9 @@
 angular.module('yuno').service("yunoService", function () {
 
     this.price = 40;
+    var lastgift;
     this.name = ""
+    this.gifts = [];
     this.filter = {
         "Man" : 0,
         "beleven": 0,
@@ -17,4 +19,9 @@ angular.module('yuno').service("yunoService", function () {
         };
 
 
+
+
+
+
 });
+
